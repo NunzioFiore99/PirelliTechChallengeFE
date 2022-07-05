@@ -1,13 +1,11 @@
 <h1 nz-typography>{{this.auto}}</h1>
 
-
 <nz-table #basicTable [nzData]="listOfData">
     <thead>
       <tr>
-        <th>Vehicle Model</th>
         <th>Timestamp</th>
-        <th>Pressure</th>
         <th>Tyre Position</th>
+        <th>Pressure</th>
         <th>Temperature</th>
         <th>Angular Velocity</th>
         <th>Linear Speed</th>
@@ -15,13 +13,12 @@
     </thead>
     <tbody>
       <tr *ngFor="let data of basicTable.data">
-        <td>{{ data.vehicleModel }}</td>
         <td>{{ data.timestamp }}</td>
-        <td>{{ data.pressure }}</td>
         <td>{{ data.tyrePosition }}</td>
-        <td>{{ data.temperature }}</td>
-        <td>{{ data.angularVelocity }}</td>
-        <td>{{ data.linearSpeed }}</td>
+        <td>{{ data.pressure }} Bar</td>
+        <td>{{ data.temperature }} °C</td>
+        <td>{{ data.angularVelocity }} &#937;</td>
+        <td>{{ data.linearSpeed }} Km/h</td>
       </tr>
     </tbody>
   </nz-table>

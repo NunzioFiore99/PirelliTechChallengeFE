@@ -5,5 +5,4 @@ export interface IMeasurement {
     temperature: string;
     angularVelocity: string;
     linearSpeed: string;
-    vehicleModel: string;
 }

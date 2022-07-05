@@ -4,7 +4,7 @@
 
   nz-header,
   nz-footer {
-    background: #7dbcea;
+    background: black;
     color: #fff;
   }
 
@@ -13,7 +13,6 @@
   }
 
   nz-content {
-
     color: #fff;
     min-height: 120px;
     line-height: 120px;
@@ -35,6 +34,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 16px 24px 16px 0;
+    float: left;
+  }
+
+  .title{
+    font-size: xx-large;
+    font-weight: bold;
     float: left;
   }
 

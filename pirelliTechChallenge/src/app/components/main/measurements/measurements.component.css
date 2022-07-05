@@ -1,0 +1,15 @@
+nz-table{
+    font-weight: normal;
+}
+
+h1{
+    color: red;
+}
+
+th{
+    text-align: center !important;
+}
+
+td{
+    text-align: center !important;
+}
